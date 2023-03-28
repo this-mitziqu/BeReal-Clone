@@ -1,8 +1,8 @@
 # Project 5 - *BeReal Clone*
 
-Submitted by: **Mingxuan Que**
+Submitted by: **Mingxuan Qu**
 
-**BeReal Clonep** is an app that ... [TODO] 
+**BeReal Clone** is an app that ... [TODO] 
 
 Time spent: **X** hours spent in total
 
