@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		6832E82529D2D7CA001B6F6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6832E82429D2D7CA001B6F6D /* AppDelegate.swift */; };
 		6832E82729D2D7CA001B6F6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6832E82629D2D7CA001B6F6D /* SceneDelegate.swift */; };
-		6832E82929D2D7CA001B6F6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6832E82829D2D7CA001B6F6D /* ViewController.swift */; };
 		6832E82C29D2D7CA001B6F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6832E82A29D2D7CA001B6F6D /* Main.storyboard */; };
 		6832E82E29D2D7CD001B6F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6832E82D29D2D7CD001B6F6D /* Assets.xcassets */; };
 		6832E83129D2D7CD001B6F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6832E82F29D2D7CD001B6F6D /* LaunchScreen.storyboard */; };
+		688D1FBB29D46DF5003D52F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1FBA29D46DF5003D52F6 /* User.swift */; };
+		688D1FBD29D46E8E003D52F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1FBC29D46E8E003D52F6 /* LoginViewController.swift */; };
+		688D1FBF29D46FFB003D52F6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1FBE29D46FFB003D52F6 /* FeedViewController.swift */; };
+		688D1FC129D47026003D52F6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1FC029D47026003D52F6 /* Post.swift */; };
+		688D1FC329D47087003D52F6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1FC229D47087003D52F6 /* PostCell.swift */; };
+		688D1FC629D47F0B003D52F6 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 688D1FC529D47F0B003D52F6 /* AlamofireImage */; };
+		688D1FC829D48174003D52F6 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1FC729D48174003D52F6 /* PostViewController.swift */; };
+		688F9B7829D4223B0004AAEF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F9B7729D4223B0004AAEF /* SignUpViewController.swift */; };
+		689712BD29D42A1F007A6CB8 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 689712BC29D42A1F007A6CB8 /* ParseSwift */; };
+		68E11DA029D546430081BE85 /* Screen Shot 2023-03-30 at 12.22.48 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E11D9F29D546430081BE85 /* Screen Shot 2023-03-30 at 12.22.48 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6832E82129D2D7CA001B6F6D /* BeReal-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeReal-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6832E82429D2D7CA001B6F6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6832E82629D2D7CA001B6F6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6832E82829D2D7CA001B6F6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6832E82B29D2D7CA001B6F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6832E82D29D2D7CD001B6F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6832E83029D2D7CD001B6F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6832E83229D2D7CD001B6F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688D1FBA29D46DF5003D52F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		688D1FBC29D46E8E003D52F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		688D1FBE29D46FFB003D52F6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		688D1FC029D47026003D52F6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		688D1FC229D47087003D52F6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		688D1FC729D48174003D52F6 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		688F9B7729D4223B0004AAEF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		68E11D9F29D546430081BE85 /* Screen Shot 2023-03-30 at 12.22.48 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2023-03-30 at 12.22.48 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689712BD29D42A1F007A6CB8 /* ParseSwift in Frameworks */,
+				688D1FC629D47F0B003D52F6 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +74,20 @@
 		6832E82329D2D7CA001B6F6D /* BeReal-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				68E11D9F29D546430081BE85 /* Screen Shot 2023-03-30 at 12.22.48 PM.png */,
 				6832E82429D2D7CA001B6F6D /* AppDelegate.swift */,
 				6832E82629D2D7CA001B6F6D /* SceneDelegate.swift */,
-				6832E82829D2D7CA001B6F6D /* ViewController.swift */,
+				688D1FC729D48174003D52F6 /* PostViewController.swift */,
 				6832E82A29D2D7CA001B6F6D /* Main.storyboard */,
+				688D1FBA29D46DF5003D52F6 /* User.swift */,
+				688D1FC229D47087003D52F6 /* PostCell.swift */,
 				6832E82D29D2D7CD001B6F6D /* Assets.xcassets */,
 				6832E82F29D2D7CD001B6F6D /* LaunchScreen.storyboard */,
 				6832E83229D2D7CD001B6F6D /* Info.plist */,
+				688F9B7729D4223B0004AAEF /* SignUpViewController.swift */,
+				688D1FBC29D46E8E003D52F6 /* LoginViewController.swift */,
+				688D1FBE29D46FFB003D52F6 /* FeedViewController.swift */,
+				688D1FC029D47026003D52F6 /* Post.swift */,
 			);
 			path = "BeReal-Clone";
 			sourceTree = "<group>";
@@ -83,6 +108,10 @@
 			dependencies = (
 			);
 			name = "BeReal-Clone";
+			packageProductDependencies = (
+				689712BC29D42A1F007A6CB8 /* ParseSwift */,
+				688D1FC529D47F0B003D52F6 /* AlamofireImage */,
+			);
 			productName = "BeReal-Clone";
 			productReference = 6832E82129D2D7CA001B6F6D /* BeReal-Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,10 @@
 				Base,
 			);
 			mainGroup = 6832E81829D2D7CA001B6F6D;
+			packageReferences = (
+				689712BB29D42A1F007A6CB8 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				688D1FC429D47F0B003D52F6 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 6832E82229D2D7CA001B6F6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +160,7 @@
 			files = (
 				6832E83129D2D7CD001B6F6D /* LaunchScreen.storyboard in Resources */,
 				6832E82E29D2D7CD001B6F6D /* Assets.xcassets in Resources */,
+				68E11DA029D546430081BE85 /* Screen Shot 2023-03-30 at 12.22.48 PM.png in Resources */,
 				6832E82C29D2D7CA001B6F6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6832E82929D2D7CA001B6F6D /* ViewController.swift in Sources */,
+				688D1FBD29D46E8E003D52F6 /* LoginViewController.swift in Sources */,
 				6832E82529D2D7CA001B6F6D /* AppDelegate.swift in Sources */,
+				688D1FC129D47026003D52F6 /* Post.swift in Sources */,
+				688D1FC829D48174003D52F6 /* PostViewController.swift in Sources */,
+				688F9B7829D4223B0004AAEF /* SignUpViewController.swift in Sources */,
+				688D1FC329D47087003D52F6 /* PostCell.swift in Sources */,
+				688D1FBB29D46DF5003D52F6 /* User.swift in Sources */,
 				6832E82729D2D7CA001B6F6D /* SceneDelegate.swift in Sources */,
+				688D1FBF29D46FFB003D52F6 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +396,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		688D1FC429D47F0B003D52F6 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		689712BB29D42A1F007A6CB8 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		688D1FC529D47F0B003D52F6 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 688D1FC429D47F0B003D52F6 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		689712BC29D42A1F007A6CB8 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 689712BB29D42A1F007A6CB8 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6832E81929D2D7CA001B6F6D /* Project object */;
 }
