@@ -1,10 +1,10 @@
-# Project 5 - *BeReal Clone*
+# Project 6 - *BeReal Clone*
 
 Submitted by: **Mingxuan Qu**
 
 **BeReal Clone** is an app that ... [TODO] 
 
-Time spent: **20** hours spent in total
+Time spent: **30** hours spent in total
 
 ## Required Features
 
@@ -14,14 +14,17 @@ The following **required** functionality is completed:
 - [x] User can log in with newly created account
 - [x] App has a feed of posts when user logs in
 - [x] User can upload a new post which takes in a picture from photo library and a caption	
+
+- [x] User can launch camera to take photo instead of photo library
+- [x] User session persists when application is closed and relaunched
+- [x] Users are able to log out and return to sign in page
+- [x] Users are NOT able to see other photos until they upload their own
  
 The following **optional** features are implemented:
 
-- [ ] Users can pull to refresh their feed and see a loading indicator
+- [x] Users can pull to refresh their feed and see a loading indicator
 - [x] Users can infinite-scroll in their feed to see past the 10 most recent photos
 - [ ] Users can see location and time of photo upload in the feed	
-- [x] User is able to logout
-- [x] User stays logged in when app is closed and open again	
 
 
 The following **additional** features are implemented:
@@ -31,6 +34,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2RiZmQzMzNiYzgyY2E3MTYwYTE0ODkwYzg2ZmZiYmFjMzM5MWZhNiZjdD1n/9DH7gAvJvWMEqcb68w/giphy.gif)
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2RiYWIzMDhkMTg3NTgxMTI3ODNhMzBmNGRhN2RmZTU0ZDljNDNiMSZjdD1n/ih7qjiGc6JsnvbHLCw/giphy.gif)
 
 ## Notes
